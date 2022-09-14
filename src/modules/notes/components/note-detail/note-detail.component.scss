@@ -1,0 +1,47 @@
+.wrapper{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.back-to-list{
+    display: inline-flex;
+    align-items: center;
+    p{
+        margin-bottom: 0px;
+    }
+}
+
+.back-to-list:hover{
+    color: blue;
+}
+
+.note-info-item{
+    display: inline-flex;
+    align-items: center;
+}
+
+.info-label{
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.info-value{
+    font-size: 15px;
+    width: 200px;
+
+}
+
+.buttons-div{
+    justify-content: end;
+    display: flex;
+}
+
+.mat-raised-button{
+    margin-left: 5px;
+    background-color: brown;
+    color: wheat;
+}

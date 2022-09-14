@@ -1,0 +1,22 @@
+<div>
+    <div class="back-to-list"  (click)="toNoteDetails()">
+        <mat-icon>arrow_back</mat-icon>
+        <p>Back to Note list</p>
+    </div>
+    <div  *ngFor="let info of noteInfos">
+        <div class="note-info-item">
+            <p class="info-label">{{info.label}}</p>
+        <p class="info-value">{{info.value}}</p>
+        </div>
+
+
+
+    </div>
+    <div class="buttons-div">
+    <button mat-raised-button (click)="editNote()">Edit note</button>
+    <button mat-raised-button (click)="deleteNote()">Delete note</button>
+    </div>
+
+</div>
+
+

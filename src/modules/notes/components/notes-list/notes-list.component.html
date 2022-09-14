@@ -1,0 +1,8 @@
+<div *ngFor="let n of notesList" class="note-item">
+    <p>{{n.getTitle()}}</p>
+    <p>{{n.getBody()}}</p>
+    <p>{{n.getCreationDate()}}</p>
+    <button mat-raised-button (click)="toNoteDetails(n)">click for details</button>
+
+</div>
+<button mat-raised-button (click)="createNote()">Create a new note</button>

@@ -1,0 +1,13 @@
+
+
+<h1 mat-dialog-title>Create a new note</h1>
+<div mat-dialog-content>
+    <form>
+        <input matInput id="title" placeholder="Title" [formControl]="title" class="input">
+        <input matInput id="body" placeholder="Body" [formControl]="body" class="input">
+    </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button (click)="onNoClick()">Cancel</button>
+  <button mat-raised-button cdkFocusInitial (click)="createNote()">Create the note</button>
+</div>

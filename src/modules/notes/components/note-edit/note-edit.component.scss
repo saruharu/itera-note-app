@@ -1,0 +1,26 @@
+input{
+    font-size: 24px;
+    border: none;
+    border-bottom: 1px solid;
+
+}
+
+form{
+    display: inline-grid;
+    grid-gap: 1em;
+}
+
+
+.mat-dialog-content{
+    padding: 52px;
+}
+
+.mat-dialog-title{
+    margin: 0px;
+
+}
+
+.mat-dialog-actions{
+        justify-content: end;
+        display: flex;
+}
